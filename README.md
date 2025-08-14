@@ -71,6 +71,7 @@ Relevant specifications for compressors:
  - **Tank Size (litres / gallons)**: The larger the air holding tank the less the compressor has to work because there will be more air available at all times. A tank of 20 litres ≈ 5 gallons is suitable for most escape room usage of around five simultaneous props, but it never hurts to get a compressor with a larger tank if possible.
  - **Power: (W / hp)**: The power of the motor that compresses the air. Typical values might be 750W ≈ 1hp. A more powerful motor will be able to repressurise the tank more quickly, and keep up with multiple props firing.
 
+You might be tempted to buy the most powerful compressor available, but these are of course more expensive, heavier, more bulky, and also typically noisier! Fortunately, it is generally possible to situate the compressor itself some distance away from the props, and run air through longer tubing to where it is needed. 
 As an example of a good, relatively inexpensive, compact compressor: https://www.amazon.co.uk/Hyundai-Electric-Compressor-Release-Fittings/dp/B07TJQZLSF
 
 
