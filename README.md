@@ -3,7 +3,7 @@ Sometimes Air >Electricity
 
 # A Pneumatics Primer for Makers
 
-## Components
+## Overview
 A typical pneumatic system consists of the following components:
  - Compressor
  - Accumulator
@@ -56,6 +56,23 @@ A manifold is a solid block (usually made of machined aluminium) that acts as a 
 
 #### Cylinder
 Cylinders are the most common sort of pneumatic output, creating linear movement to expand/contract when air pressure is applied at the port(s). They are similar to electronic linear actuators. 
+
+
+## Compressors
+
+Compressors are the "power source" of any pneumatic system. They use an electric motor to draw in air and compress it into a storage tank, increasing its pressure. 
+When the pressure in the tank reaches its set upper limit, the compressor automatically shuts off, but the stored air in the tank remains pressurised, and can be directed through a connected network of tubes to any attached devices. You can attach several devices to a single compressor, using splitters.
+As the air in the tank is depleted, the compressor turns on again and re-pressurizes back to the target pressure again.
+
+Relevant specifications for compressors:
+
+ - **Pressure (psi)**: This is the amount of pressure the compressor can generate. Pressure can be measured in various units: Typical values might be 100psi ≈ 7 bar = 700kPa = 0.7MPa. However, you do not need to run all connected devices at the same pressure - regulators can be added to set different pressures at different parts of the circuit. Most props require a minimum psi to operate, but also a stated maximum that you should not exceed; these values typically lie in the range 20 to 100psi. Setting pressure too high will add stress to the mechanism and reduce lifetime of the prop.
+ - **Volume Flow Rate (cfm / l/min)**: This is the volume of air that the compressor can deliver in one minute. A typical value might be 120 litres/min ≈ 4 cubic feet/min (cfm). Compressors with a higher flow rate also typically have a larger tank size. A compressor with a larger cfm will be able to supply air to more concurrent props.
+ - **Tank Size (litres / gallons)**: The larger the air holding tank the less the compressor has to work because there will be more air available at all times. A tank of 20 litres ≈ 5 gallons is suitable for most escape room usage of around five simultaneous props, but it never hurts to get a compressor with a larger tank if possible.
+ - **Power: (W / hp)**: The power of the motor that compresses the air. Typical values might be 750W ≈ 1hp. A more powerful motor will be able to repressurise the tank more quickly, and keep up with multiple props firing.
+
+As an example of a good, relatively inexpensive, compact compressor: https://www.amazon.co.uk/Hyundai-Electric-Compressor-Release-Fittings/dp/B07TJQZLSF
+
 
 
 ## Valve Types
