@@ -82,14 +82,20 @@ On the other end of the hose, you'll want to attach another connector that will 
 ![Threaded push connector fitting](docs/pc8-02.jpg)
 
 Screw threads are generally expressed in imperial units (1/8", 1/4", 3/8" etc.), while push-fit connectors and tubing are generally expressed in metric units. The naming convention for pushfit connectors is the letters "PC" followed by the outer diameter of the tube accepted in the push end (e.g. "8" for a tube with 8/5 OD/ID), followed by the thread diameter expressed in 1/8"s of an inch.... it's a baffling mixed system, but it's actually not too had to follow once you get used to it.
-
 I typically use PC08-02 connectors, which join an 8mm hose to a 1/4" threaded connector. PC06-01 would join a 6mm hose to a 1/8" thread, PC12-04 would join a 12mm hose to a 1/2" thread, etc.
 
+Here's some other types of push-fit connectors:
+![Push-fit connector types](docs/pushconnectors.jpg)
 
+You may notice that there is no push-fit connector that converts _directly_ from the Euro quick-release outlet of the compressor. Instead, we convert it to a threaded BSP connector first, and then from that to a push-conenctor:
 
-give the outer diameter of the pipe
+- Euro male quick‑release fitting with 1/4" BSP female thread
+- PCxx-02 1/4" BSP male thread to push-fit (where _xx_ is the diameter of the tubing you're using)
 
+_or_
 
+- Euro male quick-release fitting with 1/4" BSP male thread
+- PCFxx-02 1/4" BSP female thread to push-fit (where _xx_ is the diameter of the tubing you're using)
 
 ## Valve Types
 | Description | Ports | Usage |
