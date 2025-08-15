@@ -40,7 +40,7 @@ This is an optional component that you can use to store a reservoir of pressuris
 A regulator is an adjustable valve that can be used to limit the pressure in certain sections of the pipe. They are somewhat similar to resistors in an electrical circuit. 
 
 #### Tubing
-Like wires, pneumatic tubing is available in a variety of diameters. Larger diameter pipes carry a greater volume of air, but will drain your reservoir faster. PolyethylPolyethylene will kink if you squeeze it too hard so you won't be able to route it around tight corners. For that, use a dedicated 90' bend connector. Polyurethane is more expensive but does not kink.
+Like wires, pneumatic tubing is available in a variety of diameters. Larger diameter pipes carry a greater volume of air, but will drain your reservoir faster. Polyethylene will kink if you squeeze it too hard so you won't be able to route it around tight corners. For that, use a dedicated 90' bend connector. Polyurethane is more expensive but does not kink.
 
 #### Connectors
 I recommend using push-fit connectors. You need to purchase push-fit connectors that match the diameter of the tubing you're using. I'm using 8mm tubing throughout. The other side of the connector will need to match the thread of the component you're connecting to. This is normally a 1/4", but sometimes 1/8". The compressor itself probably has one of these Euro-style push connectors. Don't use barbed connectors - they simply ping off under high pressure.
@@ -73,6 +73,21 @@ Relevant specifications for compressors:
 
 You might be tempted to buy the most powerful compressor available, but these are of course more expensive, heavier, more bulky, and also typically noisier! Fortunately, it is generally possible to situate the compressor itself some distance away from the props, and run air through longer tubing to where it is needed. 
 As an example of a good, relatively inexpensive, compact compressor: https://www.amazon.co.uk/Hyundai-Electric-Compressor-Release-Fittings/dp/B07TJQZLSF
+
+You'll need to attach a hose with the correct connector to match the outlet of the compressor. Unfortunately there are many different connector types, some of which are shown below. The most common compressor outlet I've seen (in the UK) use **female Euro quick-release coupler**, in which case you'll want a hose with a **Euro male quick‑release** plug, also called Rectus 25/26, or CEJN320:
+![Cross-sectional profiles of different pneumatic connector types](docs/nippleprofiles.jpg)
+
+You can see more types of connectors at https://en.wikipedia.org/wiki/Air-line_fitting. 
+On the other end of the hose, you'll want to attach another connector that will allow it to be attached to the rest of your pneumatic system. From this point onwards, I highly recommend doing away with any of the connector types above, and instead simply use push-fit connectors, such as this PC8-02:
+![Threaded push connector fitting](docs/pc8-02.jpg)
+
+Screw threads are generally expressed in imperial units (1/8", 1/4", 3/8" etc.), while push-fit connectors and tubing are generally expressed in metric units. The naming convention for pushfit connectors is the letters "PC" followed by the outer diameter of the tube accepted in the push end (e.g. "8" for a tube with 8/5 OD/ID), followed by the thread diameter expressed in 1/8"s of an inch.... it's a baffling mixed system, but it's actually not too had to follow once you get used to it.
+
+I typically use PC08-02 connectors, which join an 8mm hose to a 1/4" threaded connector. PC06-01 would join a 6mm hose to a 1/8" thread, PC12-04 would join a 12mm hose to a 1/2" thread, etc.
+
+
+
+give the outer diameter of the pipe
 
 
 
